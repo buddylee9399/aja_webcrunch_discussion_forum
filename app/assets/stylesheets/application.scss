@@ -17,6 +17,15 @@
 
 @import "bulma";
 @import "functions";
+@import "pygments";
+
+.content pre {
+  // max-width: 600px;
+}
+
+#discussion-replies .box {
+  overflow: auto;
+}
 
 .image {
   border-radius: 50%;
